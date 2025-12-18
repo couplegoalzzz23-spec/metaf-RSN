@@ -286,7 +286,7 @@ CURRENT_MODE = get_day_night_mode(override_mode)
 # =====================================
 # 📡 KONFIGURASI API
 # =====================================
-API_BASE = "https://cuaca.bmkg.go.id/api/df/v1/forecast/adm"
+API_BASE = "https://aviationweather.gov/api/data/metar?ids=WIBB&hours=0&sep=true&taf=true"
 MS_TO_KT = 1.94384 # konversi ke knot
 METER_TO_SM = 0.000621371 # 1 meter = 0.000621371 statute miles (SM)
 
